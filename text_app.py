@@ -6,4 +6,4 @@ def text_home_page():
 
 
     assert responce.status_code == 200
-    assert b"welcome to flask" in responce.data
+    assert b"welcomw to CI/CD Project" in responce.data
